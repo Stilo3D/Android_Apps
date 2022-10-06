@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">First app</string>
+    <string name="button_true">True</string>
+    <string name="button_false">False</string>
+    <string name="button_next">Next</string>
+    <string name="q_gothic">Does gothic 1  is the best game ever made?</string>
+    <string name="q_xiaomi">Do Xiaomi smarthpones are good?</string>
+    <string name="q_bitcoin">Is Bitcoin regarded as safe asset?</string>
+    <string name="q_java">Does Java programming language is better than C?</string>
+    <string name="q_money">Are money printed all the time?</string>
+    <string name="correct_answer">Your answer is correct!</string>
+    <string name="incorrect_answer">Your answer is wrong!</string>
+</resources>

@@ -10,4 +10,5 @@
     <string name="q_money">Are money printed all the time?</string>
     <string name="correct_answer">Your answer is correct!</string>
     <string name="incorrect_answer">Your answer is wrong!</string>
+    <string name="answer_was_shown">Answer has been shown!</string>
 </resources>

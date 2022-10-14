@@ -1,0 +1,36 @@
+Pierwsze uruchomienie aplikacji:
+2022-10-14 11:03:13.446 10020-10020 start                   com.example.firstapp                 D  onStart executed
+2022-10-14 11:03:13.447 10020-10020 resume                  com.example.firstapp                 D  onResume executed
+
+Po wciśnięciu przycisku cofnij:
+2022-10-14 11:03:23.978 10020-10020 pause                   com.example.firstapp                 D  onPause executed
+2022-10-14 11:03:24.772 10020-10020 stop                    com.example.firstapp                 D  onStop executed
+
+Ponowne uruchomienie aplikacji:
+2022-10-14 11:03:33.615 10020-10020 start                   com.example.firstapp                 D  onStart executed
+2022-10-14 11:03:33.619 10020-10020 resume                  com.example.firstapp                 D  onResume executed
+
+Po wciśnięciu przycisku Home:
+2022-10-14 11:03:40.382 10020-10020 pause                   com.example.firstapp                 D  onPause executed
+2022-10-14 11:03:41.040 10020-10020 stop                    com.example.firstapp                 D  onStop executed
+
+Po powrocie do aplikacji z listy ostatnich aplikacji:
+2022-10-14 11:03:48.413 10020-10020 start                   com.example.firstapp                 D  onStart executed
+2022-10-14 11:03:48.414 10020-10020 resume                  com.example.firstapp                 D  onResume executed
+
+Obrócenie ekranu:
+2022-10-14 11:10:09.264 10020-10020 pause                   com.example.firstapp                 D  onPause executed
+2022-10-14 11:10:09.270 10020-10020 stop                    com.example.firstapp                 D  onStop executed
+2022-10-14 11:10:09.274 10020-10020 destroy                 com.example.firstapp                 D  onDestroy executed
+2022-10-14 11:10:09.450 10020-10020 start                   com.example.firstapp                 D  onStart executed
+2022-10-14 11:10:09.451 10020-10020 resume                  com.example.firstapp                 D  onResume executed
+
+Zmiana rotacji + zapisanie poprzedniego stanu:
+2022-10-14 11:33:26.961 11430-11430 pause                   com.example.firstapp                 D  onPause executed
+2022-10-14 11:33:27.006 11430-11430 stop                    com.example.firstapp                 D  onStop executed
+2022-10-14 11:33:27.025 11430-11430 save                    com.example.firstapp                 D  Method SAVEINSTANCESTATE executed
+2022-10-14 11:33:27.026 11430-11430 destroy                 com.example.firstapp                 D  onDestroy executed
+2022-10-14 11:33:27.133 11430-11430 create                  com.example.firstapp                 D  onCreate executed
+2022-10-14 11:33:27.215 11430-11430 start                   com.example.firstapp                 D  onStart executed
+2022-10-14 11:33:27.216 11430-11430 resume                  com.example.firstapp                 D  onResume executed
+

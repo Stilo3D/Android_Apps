@@ -12,12 +12,13 @@ public class TaskListActivity extends SingleFragmentActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_task);
+        //setContentView(R.layout.fragment_task);
 
     }
-
+    @Override
     protected Fragment createFragment() {
-        UUID taskId = (UUID) getIntent().getSerializableExtra(TaskListFragment.KEY_EXTRA_TASK_ID);
-        return TaskFragment.newInstance(taskId);
+        //UUID taskId = (UUID) getIntent().getSerializableExtra(TaskListFragment.KEY_EXTRA_TASK_ID);
+        //return TaskFragment.newInstance(taskId);
+        return new TaskListFragment();
     }
 }

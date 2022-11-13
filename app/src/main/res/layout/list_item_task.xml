@@ -1,19 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="30dp">
+
+    <CheckBox
+        android:id="@+id/task_item_checkbox"
+        android:layout_width="30dp"
+        android:layout_height="20dp"
+        android:layout_weight="2"
+        android:layout_marginLeft="2dp"
+        android:buttonTint="@color/colorGreenLight"
+
+        />
 
     <TextView
         android:id="@+id/task_item_name"
-        android:layout_width="wrap_content"
+        android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="TextView" />
+        android:ellipsize="end"
+        android:singleLine="true"
+        android:text="TextView"
+        style="@style/text_style"
+        android:textColor="@color/colorBlueDark" />
 
     <TextView
         android:id="@+id/task_item_date"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="1"
-        android:text="TextView" />
+        android:text="TextView"
+        android:textColor="@color/colorOrange"/>
+
+    <ImageView
+        android:id="@+id/task_item_category"
+        android:layout_width="6dp"
+        android:layout_height="20dp"
+        android:layout_weight="2"
+        android:padding="@dimen/task_item_padding"
+        tools:srcCompat="@drawable/ic_home" />
+
 </LinearLayout>

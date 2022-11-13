@@ -9,9 +9,12 @@ public class Task {
     private Date date;
     private boolean done;
 
+    private Category category;
+
     public Task(){
         id = UUID.randomUUID();
         date = new Date();
+        category = Category.DOM;
     }
 
     public void setName(String s) {
@@ -25,6 +28,7 @@ public class Task {
     public Date getDate(){
         return this.date;
     }
+    public void setDate(Date dat) { this.date = dat;}
     public UUID getId(){
         return this.id;
     }
@@ -35,7 +39,11 @@ public class Task {
 
     public String getName() {return name;}
 
-    //void setContentView(R.layout.container);
+    public void setCategory(Category cat) {
+        this.category = cat;}
+
+    public Category getCategory() {return this.category;}
+
 
 
 }

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="text_style">
+        <item name="android:fontFamily">casual</item>
+
+        <item name="android:background">@color/colorYellow</item>
+        <item name="android:layout_marginBottom">1dp</item>
+        <item name="android:layout_marginTop">1dp</item>
+        <item name="android:maxLength">30</item>
+
+    </style>
+
+
+</resources>

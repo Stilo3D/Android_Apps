@@ -68,10 +68,12 @@ public class TaskFragment extends Fragment {
 
             @Override
             public void afterTextChanged(Editable s) {
-                task.setName(s.toString());
+                //task.setName(s.toString());
 
             }
         });
+		nameField.setText(task.getName()); //fixed
+
 
         if(dateButton != null){
             dateButton.setText(task.getDate().toString());

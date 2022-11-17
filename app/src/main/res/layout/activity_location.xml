@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".LocationActivity"
+    android:orientation="vertical">
+
+    <Button
+        android:id="@+id/location_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pobierz lokalizację"
+        tools:ignore="MissingConstraints" />
+    <Button
+        android:id="@+id/get_location_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pobierz adres"
+        />
+
+    <TextView
+        android:id="@+id/location_text"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:text="Kliknij przycisk aby pobrac lokalizacje" />
+<TextView
+        android:id="@+id/last_location_text"
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_height="wrap_content"
+        android:text="Ostatnia lokalziacja" />
+</LinearLayout>

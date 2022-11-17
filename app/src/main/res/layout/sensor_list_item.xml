@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    android:id="@+id/entire_sensor_item">
+
+
+    <ImageView
+        android:id="@+id/sensor_category"
+        android:layout_width="55dp"
+        android:layout_height="30dp"
+
+        android:padding="4dp"
+        tools:srcCompat="@drawable/ic_sensor" />
+
+    <TextView
+        android:id="@+id/sensor_name"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="5dp"
+        android:ellipsize="end"
+        android:singleLine="true"
+        />
+
+
+
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BooksApi</string>
+    <string name="img">Cover</string>
+    <string name="search">Search</string>
+    <string name="clear_search">Clear search</string>
+    <string name="fail_message">Something went wront</string>
+    <string name="img_alt">Default</string>
+</resources>
